@@ -1,0 +1,229 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Cv</title>
+    <link rel="icon" href="c:\Users\hp\Downloads\32x32-moon_10.jpg">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+		<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+		<script type="text/javascript">
+			window.tailwind.config = {
+				darkMode: ['class'],
+				theme: {
+					extend: {
+						colors: {
+							border: 'hsl(var(--border))',
+							input: 'hsl(var(--input))',
+							ring: 'hsl(var(--ring))',
+							background: 'hsl(var(--background))',
+							foreground: 'hsl(var(--foreground))',
+							primary: {
+								DEFAULT: 'hsl(var(--primary))',
+								foreground: 'hsl(var(--primary-foreground))'
+							},
+							secondary: {
+								DEFAULT: 'hsl(var(--secondary))',
+								foreground: 'hsl(var(--secondary-foreground))'
+							},
+							destructive: {
+								DEFAULT: 'hsl(var(--destructive))',
+								foreground: 'hsl(var(--destructive-foreground))'
+							},
+							muted: {
+								DEFAULT: 'hsl(var(--muted))',
+								foreground: 'hsl(var(--muted-foreground))'
+							},
+							accent: {
+								DEFAULT: 'hsl(var(--accent))',
+								foreground: 'hsl(var(--accent-foreground))'
+							},
+							popover: {
+								DEFAULT: 'hsl(var(--popover))',
+								foreground: 'hsl(var(--popover-foreground))'
+							},
+							card: {
+								DEFAULT: 'hsl(var(--card))',
+								foreground: 'hsl(var(--card-foreground))'
+							},
+						},
+					}
+				}
+			}
+		</script>
+		<style type="text/tailwindcss">
+			@layer base {
+				:root {
+					--background: 0 0% 100%;
+--foreground: 224 71.4% 4.1%;
+--card: 0 0% 100%;
+--card-foreground: 224 71.4% 4.1%;
+--popover: 0 0% 100%;
+--popover-foreground: 224 71.4% 4.1%;
+--primary: 262.1 83.3% 57.8%;
+--primary-foreground: 210 20% 98%;
+--secondary: 220 14.3% 95.9%;
+--secondary-foreground: 220.9 39.3% 11%;
+--muted: 220 14.3% 95.9%;
+--muted-foreground: 220 8.9% 46.1%;
+--accent: 220 14.3% 95.9%;
+--accent-foreground: 220.9 39.3% 11%;
+--destructive: 0 84.2% 60.2%;
+--destructive-foreground: 210 20% 98%;
+--border: 220 13% 91%;
+--input: 220 13% 91%;
+--ring: 262.1 83.3% 57.8%;
+				}
+				.dark {
+					--background: 224 71.4% 4.1%;
+--foreground: 210 20% 98%;
+--card: 224 71.4% 4.1%;
+--card-foreground: 210 20% 98%;
+--popover: 224 71.4% 4.1%;
+--popover-foreground: 210 20% 98%;
+--primary: 263.4 70% 50.4%;
+--primary-foreground: 210 20% 98%;
+--secondary: 215 27.9% 16.9%;
+--secondary-foreground: 210 20% 98%;
+--muted: 215 27.9% 16.9%;
+--muted-foreground: 217.9 10.6% 64.9%;
+--accent: 215 27.9% 16.9%;
+--accent-foreground: 210 20% 98%;
+--destructive: 0 62.8% 30.6%;
+--destructive-foreground: 210 20% 98%;
+--border: 215 27.9% 16.9%;
+--input: 215 27.9% 16.9%;
+--ring: 263.4 70% 50.4%;
+				}
+			}
+		</style>
+  </head>
+  <body>
+    <div class="bg-background text-foreground min-h-screen flex flex-col items-center justify-center">
+    
+    <header class="bg-primary w-full py-4 px-6 flex justify-between items-center shadow-lg">
+        <div class="flex items-center">
+            <img src="c:\Users\hp\Desktop\New folder (2)\moon_10.jpg" alt="Profile Picture" class="rounded-full h-12 w-12 mr-3" />
+            <h1 class="text-2xl font-bold text-black-600">Your Name</h1>
+        </div>
+        <nav>
+            <a href="#About" class="text-black-600 mx-2 hover:text-purple-800 transition-colors">About</a>
+            <a href="#pro" class="text-black-600 mx-2 hover:text-purple-800 transition-colors">Projects</a>
+            <a href="#con" class="text-black-600 mx-2 hover:text-purple-800 transition-colors">Contact</a>
+            <a href="#wow" class="text-black-600 mx-2 hover:text-purple-800 transition-colors">Skills</a>
+        </nav>
+    </header>
+    
+    <section class="bg-purple-100 text-purple-800 py-16 px-6 text-center rounded-lg shadow-md">
+        <h2 class="text-5xl font-bold mb-4">Creative Frontend Developer</h2>
+        <p class="text-lg mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, voluptates.</p>
+        <div class="relative inset-0 flex">
+            <img src="c:\Users\hp\Desktop\New folder (2)\moon_10.jpg" 
+                 alt="alternate text" 
+                 class="m-auto scale-75 hover:scale-100 ease-in duration-500" width="200px" style="border-radius: 50%;">
+        </div>
+    </section>
+    
+    <section class="bg-white text-zinc-800 py-12 px-6 w-full rounded-lg shadow-md" id="wow">
+        <h3 class="text-3xl font-bold mb-6 text-center">Skills</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="bg-purple-200 p-4 rounded-lg text-center shadow scale-75 hover:scale-100 ease-in duration-500">HTML</div>
+            <div class="bg-purple-200 p-4 rounded-lg text-center shadow scale-75 hover:scale-100 ease-in duration-500">CSS</div>
+            <div class="bg-purple-200 p-4 rounded-lg text-center shadow scale-75 hover:scale-100 ease-in duration-500">JavaScript</div>
+            <div class="bg-purple-200 p-4 rounded-lg text-center shadow scale-75 hover:scale-100 ease-in duration-500">React</div>
+            <div class="bg-purple-200 p-4 rounded-lg text-center shadow scale-75 hover:scale-100 ease-in duration-500">TailwindCSS</div>
+            <div class="bg-purple-200 p-4 rounded-lg text-center shadow scale-75 hover:scale-100 ease-in duration-500">Responsive Design</div>
+        </div>
+    </section>
+    
+    <section class="bg-purple-100 text-purple-800 py-16 px-6 w-full rounded-lg shadow-md" id="About"> 
+        <h3 class="text-3xl font-bold mb-6 text-center">About Me</h3>
+        <p class="text-lg mb-8 text-center">I am a passionate frontend developer dedicated to creating stunning and user-friendly web experiences. With a strong focus on design and functionality, I strive to bring ideas to life through code.</p>
+    </section>
+    
+    <section class="bg-white text-zinc-800 py-16 px-6 w-full rounded-lg shadow-md" id="pro">
+        <h3 class="text-3xl font-bold mb-6 text-center">Projects</h3>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="bg-purple-200 p-6 rounded-lg shadow-md scale-75 hover:scale-100 ease-in duration-500">
+                <img style="border-radius: 10px;" aria-hidden="true" alt="project-1" src="c:\Users\hp\Desktop\New folder (2)\pexels-maxzal-2953179.jpg" class="mb-4" />
+                <h4 class="text-xl font-bold mb-2">Project 1</h4>
+                <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem voluptatum aut asperiores ex, exercitationem earum culpa corrupti! Laboriosam deserunt a odio. Aspernatur ipsa nulla possimus id deleniti, ipsum officiis distinctio!</p>
+            </div>
+            
+            <div class="bg-purple-200 p-6 rounded-lg shadow-md scale-75 hover:scale-100 ease-in duration-500">
+                <img style="border-radius: 10px;" aria-hidden="true" alt="project-2" src="c:\Users\hp\Desktop\New folder (2)\pexels-zahaoha-1322444.jpg" class="mb-4" />
+                <h4 class="text-xl font-bold mb-2">Project 2</h4>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates modi aut nesciunt, voluptatem magni iusto soluta. Libero neque ipsum perspiciatis reprehenderit corrupti aut sapiente, dignissimos vel voluptatem dolore excepturi ut?</p>
+            </div>
+            
+            <div class="bg-purple-200 p-6 rounded-lg shadow-md scale-75 hover:scale-100 ease-in duration-500">
+                <img style="border-radius: 10px;" aria-hidden="true" alt="project-3" src="c:\Users\hp\Desktop\New folder (2)\pexels-rpnickson-2486168.jpg" class="mb-4" />
+                <h4 class="text-xl font-bold mb-2">Project 3</h4>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestias quasi nulla quidem dolorem facere nostrum quisquam dignissimos quam cum explicabo voluptas quas corporis non et ex repellat sapiente. Debitis.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-purple-100 text-purple-800 py-16 px-6 w-full rounded-lg shadow-md" id="con">
+        <h3 class="text-3xl font-bold mb-6 text-center">Contact Me</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-1 gap-2">
+            <div class="bg-purple-200 p-2 rounded-lg flex items-center shadow scale-75 hover:scale-100 ease-in duration-500">
+                <img aria-hidden="true" alt="email" src="c:\Users\hp\Desktop\1390582.png" width="50px" class="inline-block mr-2" />
+                example@example.com
+            </div>
+            <div class="bg-purple-200 p-2 rounded-lg flex items-center shadow scale-75 hover:scale-100 ease-in duration-500">
+                <img aria-hidden="true" alt="email" src="c:\Users\hp\Desktop\free-icon-home-185.png" width="50px" class="inline-block mr-2" />
+                Address
+            </div>
+            <div class="bg-purple-200 p-2 rounded-lg flex items-center shadow scale-75 hover:scale-100 ease-in duration-500">
+                <img aria-hidden="true" alt="phone" src="c:\Users\hp\Downloads\phone-icon-black.png" width="50px" class="inline-block mr-2" />
+                +1 (123) 456-7890
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-primary w-full py-4 px-6 mt-auto text-center">
+        <p class="text-black-600" style="font-size: x-large;">Order Your Own Cv Website.</p>
+    <br>
+    <form id="orderForm">
+        <input type="text" id="name" name="name" required style="border-radius: 10px;" placeholder="Your Name!"><br><br>
+        <input type="email" id="email" name="email" required style="border-radius: 10px;" placeholder="Your Email!"><br><br>
+        <textarea name="informiton" id="informiton" placeholder="Describe What You Want!" style="border-radius: 10px;" required></textarea><br><br>
+        <p class="text-black-600" style="font-size: large;">We Will Contact You Soon!😄</p><br>
+        <button type="submit" style="background-color: rgb(255, 255, 255); border-radius: 5px;">-Submit Order-</button>
+    </form>
+
+    <script>
+        document.getElementById('orderForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(this);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            fetch('https://discord.com/api/webhooks/1296189061098373160/61-Hf8CT16kU_fVA1WmxWJSshUw7Nqcq5iJ9FLhGfnMNTiNKI7KiNiLhNMaLdW8Ydy8c', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    content: `New order received:\nName: ${data.name}\nEmail: ${data.email}\nInformtion: ${data.informiton}`
+                })
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Order submitted successfully!');
+                } else {
+                    alert('Error submitting order.');
+                }
+            })
+            .catch(error => {
+                alert('Error: ' + error.message);
+            });
+        });
+    </script>
+    </footer>
+  </body>
+</html>
